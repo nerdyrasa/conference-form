@@ -13,9 +13,11 @@ button {
 }
 
 body {
-  font: 1em/1.5;
+	/*Error:(16, 9) Mismatched property value ([<font-style> || <font-variant-css21> || <font-weight> || <font-stretch>]? <font-size> [/ <line-height>]? <font-family> | caption | icon | menu | message-box | small-caption | status-bar | [initial | inherit | unset])*/
+  /*font: 1em/1.5;*/
+  font-size: 1em;
   color: #184f68;
-	background: #accbd9;
+  background: #accbd9;
 }
 
 header {
@@ -81,7 +83,7 @@ select {
 	margin-bottom: 1.125em;	
 }
 
-input {
+input, select {
 	font-size: 1em;
 	font-weight: 500;
 	padding: .8em;
@@ -90,7 +92,7 @@ input {
 	outline: none;
 }
 
-input:focus {
+input:focus, select:focus:focus {
 	background: #fff;
 	border-color: #5e97b0;
 	transition: border-color .4s, background-color .4s;
@@ -101,6 +103,15 @@ input[type="radio"] {
 	display: inline-block;
 }
 
+/*  https://gist.github.com/dciccale/1367918 */
+
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+	outline:none;
+	box-shadow: 0 0 3px 3px rgba(31, 33, 33, 0.4)
+}
+
+
 button {
 	color: #fff;
 	padding: .55em 1.25em;
@@ -109,7 +120,7 @@ button {
 	cursor: pointer;
 }
 
-button:hover {
+button:hover, button:focus {
 	background: #184c62;
 }
 
