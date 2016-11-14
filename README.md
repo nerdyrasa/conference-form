@@ -1,6 +1,10 @@
 ## Treehouse Technical Degree Project 3 
 ### Interactive Forms: Easy to Use, Interactive and Responsive
 
+---
+Forms are vital to any business. Get them right.
+---
+
 ####Tech/Concepts:
 - JavaScript
 - JQuery
@@ -29,6 +33,54 @@
 - [ ] Make sure you add a text input field
 - [ ] Use the id of "other-title" for the field
 - [ ] Add placeholder text of "Your Title" for the field
+
+---
+
+##### "T-Shirt Info" section of the form:
+
+- [ ] For the T-Shirt color menu, only display the optons that match the design selected in the "Design" menu.
+
+| Theme  | Color Options |
+|---|---|
+| JS Puns   | Cornflower Blue  |
+|           | Dark Slate Grey  |
+|           | Gold  |
+| I heart JS    | Tomato  |
+|           | Steel Blue  |
+|           | Dim Grey  |
+
+---
+
+##### "Register for Activities" section of the form:
+
+
+
+
+---
+
+##### "Payment Info" section of the form
+
+---
+
+##### Form Validation
+
+---
+
+##### No Syntax Errors
+
+---
+
+##### Add comments
+
+---
+
+##### Unobtrusive Javascript
+
+If Javascript is unavailable, all information required should be visible. For example, the “Your Job Role�? text field should already be available if someone selects “Other." 
+
+---
+
+##### Cross-browser compatibility
 
 ---
 
