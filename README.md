@@ -2,7 +2,9 @@
 ### Interactive Forms: Easy to Use, Interactive and Responsive
 
 ---
+
 Forms are vital to any business. Get them right.
+
 ---
 
 ####Tech/Concepts:
@@ -30,9 +32,9 @@ Forms are vital to any business. Get them right.
 ##### "Job Role" section of the form:
  
 - [ ] Reveal a text field when the "Other" option is selected from the "Job Role" drop down menu
-- [ ] Make sure you add a text input field
-- [ ] Use the id of "other-title" for the field
-- [ ] Add placeholder text of "Your Title" for the field
+- [x] Use the id of "other-title" for the field
+- [x] Add placeholder text of "Your Title" for the field
+- [x] If Javascript is unavailable, "Your Job Role" text field should be available if someone selects "Other". 
 
 ---
 
@@ -76,7 +78,7 @@ Forms are vital to any business. Get them right.
 
 ##### Unobtrusive Javascript
 
-If Javascript is unavailable, all information required should be visible. For example, the “Your Job Role�? text field should already be available if someone selects “Other." 
+If Javascript is unavailable, all information required should be visible. For example, the "Your Job Role" text field should already be available if someone selects "Other". 
 
 ---
 
