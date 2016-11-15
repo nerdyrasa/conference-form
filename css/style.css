@@ -85,6 +85,10 @@ label {
 	margin-bottom: .5em;
 }
 
+.job-roles > label {
+	display: inline-block;
+}
+
 input,
 select {
 	margin-bottom: 1.125em;	
@@ -118,6 +122,9 @@ input[type="checkbox"]:focus {
 	box-shadow: 0 0 3px 3px rgba(31, 33, 33, 0.4)
 }
 
+input:invalid {
+	border-color: red;
+}
 
 button {
 	color: #fff;
@@ -129,6 +136,10 @@ button {
 
 button:hover, button:focus {
 	background: #184c62;
+}
+
+.register-for {
+	line-height: 2.5;
 }
 
 /* ================================= 
@@ -152,6 +163,33 @@ button:hover, button:focus {
 .credit-card {
 	margin-top: 1.25em;
 }
+
+/* =================================
+  Hide and Show CSS Only
+  https://codepen.io/paulobrien/pen/tpmAi
+
+==================================== */
+.hide {
+	width:50%;
+	border:1px solid #000;
+	background:red;
+	max-height:99em;
+	opacity:1;
+	height:auto;
+	overflow:hidden;
+	transition:opacity 1.5s linear, max-height 1.5s linear;
+}
+
+.other-title {
+	display: none;
+}
+
+/* http://codepen.io/anon/pen/qqNvKR */
+
+.other:checked ~ div {
+	display:  block;
+}
+
 
 /* ================================= 
   Helper Classes
