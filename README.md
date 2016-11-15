@@ -38,7 +38,7 @@ Forms are vital to any business. Get them right.
 
 ##### "T-Shirt Info" section of the form:
 
-- [ ] For the T-Shirt color menu, only display the optons that match the design selected in the "Design" menu.
+- [ ] For the T-Shirt color menu, only display the options that match the design selected in the "Design" menu.
 
 | Theme  | Color Options |
 |---|---|
@@ -66,7 +66,7 @@ Forms are vital to any business. Get them right.
 
 - [x] Name field is required
 - [x] Email is required and must be in a valid format.  
-- [ ] At least one activity must be checked from the list under "Register for Actitivities."
+- [ ] At least one activity must be checked from the list under "Register for Activities."
 - [ ] Payment option must be selected.
 - [ ] If "Credit card" is the selected payment option, make sure the user supplied a credit card number, a zip code, and a 3 number CVV value.
 

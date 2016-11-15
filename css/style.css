@@ -186,7 +186,7 @@ button:hover, button:focus {
 
 /* http://codepen.io/anon/pen/qqNvKR */
 
-.other:checked ~ div {
+.other:checked ~ input {
 	display:  block;
 }
 

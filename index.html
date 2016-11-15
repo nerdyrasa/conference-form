@@ -24,8 +24,7 @@
         <input type="text" id="name" name="user_name" autofocus required>
         
         <label for="mail">Email*:</label>
-        <input type="email" id="mail" name="user_email">
-        <!--<input type="text" id="mail" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Invalid email address" required/>-->
+        <input type="email" id="mail" name="user_email" required>
       </fieldset>
       <fieldset>
         <legend>Your Job Role</legend>
@@ -48,7 +47,7 @@
           </div>
           <div>
             <label for="radio6"><input name="radio" id="radio6" type="radio" class="other">Other
-              <div class="other-title"><input type="text" placeholder="Job Title"></div>
+              <input type="text" class="other-title" placeholder="Job Title">
             </label>
           </div>
         </div>
