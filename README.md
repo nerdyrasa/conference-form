@@ -1,4 +1,4 @@
-### Conference Registration Form: Working with Mockups/Working with Arrays and Objects
+### Conference Registration Form
 
 - HTML/CSS/JavaScript
 - DOM Manipulation with JQuery
@@ -70,6 +70,7 @@
 - [x] Form must work adequately and without frustration even if JavaScript is not enabled.
 - [x] Form must work in major browsers.
 - [x] Form must look good and work at various screen sizes and devices.
+
 ---
 
 #### Extra Credit
