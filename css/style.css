@@ -13,12 +13,6 @@ button {
 }
 
 body {
-  /*Error:(16, 9) Mismatched property value ([<font-style> || <font-variant-css21> || <font-weight> || <font-stretch>]? <font-size> [/ <line-height>]? <font-family> | caption | icon | menu | message-box | small-caption | status-bar | [initial | inherit | unset])*/
-  /* http://stackoverflow.com/questions/701732/size-of-font-in-css-with-slash */
-  /* http://meyerweb.com/eric/thoughts/2006/02/08/unitless-line-heights/ */
-
-  font: 1.10em/0.8 sans-serif;
-  /*font-size: 1em;*/
   color: #184f68;
   background: #accbd9;
 }
@@ -28,7 +22,7 @@ header {
 }
 
 h1 {
-	font-size: 2.5em;
+	font-size: 3em;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.45);
 	margin: 0;
 }
@@ -41,7 +35,7 @@ a {
   text-decoration: none;
 }
 
-/* ================================= 
+/* =================================
   Form Element Styles
 ==================================== */
 
@@ -68,9 +62,9 @@ button {
 
 legend {
 	font-weight: 500;
-	padding-top: 1.0em;
 	border-top: 2px solid #679cb3;
-	margin-bottom: 1.05em;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
 }
 
 input[type="text"],
@@ -82,16 +76,17 @@ legend {
 label {
 	color: #000;
 	display: block;
-	margin-bottom: .5em;
+}
+
+.job-roles {
+	line-height: 0;
 }
 
 .job-roles > label {
 	display: inline-block;
 }
-
-input,
-select {
-	margin-bottom: 1.125em;	
+.job-roles div:last-child {
+	margin-bottom: 20px;
 }
 
 input, select {
@@ -101,6 +96,8 @@ input, select {
 	background: #c1deeb;
 	border: 2px solid #c1deeb;
 	outline: none;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 input:focus, select:focus:focus {
@@ -114,16 +111,24 @@ input[type="radio"] {
 	display: inline-block;
 }
 
-/*  https://gist.github.com/dciccale/1367918 */
-
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
 	outline:none;
 	box-shadow: 0 0 3px 3px rgba(31, 33, 33, 0.4)
 }
 
-input:invalid {
-	border-color: red;
+input[type="checkbox"]:disabled {
+	color: white;
+}
+
+.unavailable-activity {
+	color: white;
+}
+
+.unavailable-activity::after {
+	content: "Unavailable";
+	color: #9a2828;
+	margin-left: 10px;
 }
 
 button {
@@ -138,8 +143,36 @@ button:hover, button:focus {
 	background: #184c62;
 }
 
+a {
+	color: white;
+}
+
 .register-for {
-	line-height: 2.5;
+	font-size: 1.5em;
+}
+
+.total {
+	margin-top: 20px;
+}
+
+.error {
+	font-weight: bold;
+	color: #9a2828;
+	margin-bottom: 10px;
+}
+
+.required-input {
+	border: 2px solid red;
+}
+
+#error-summary {
+	font-weight: bold;
+	color: #9a2828;
+}
+
+#demo-message {
+	font-size: 10px;
+	color: #9a2828;
 }
 
 /* ================================= 
@@ -165,33 +198,6 @@ button:hover, button:focus {
 }
 
 /* =================================
-  Hide and Show CSS Only
-  https://codepen.io/paulobrien/pen/tpmAi
-
-==================================== */
-.hide {
-	width:50%;
-	border:1px solid #000;
-	background:red;
-	max-height:99em;
-	opacity:1;
-	height:auto;
-	overflow:hidden;
-	transition:opacity 1.5s linear, max-height 1.5s linear;
-}
-
-.other-title {
-	display: none;
-}
-
-/* http://codepen.io/anon/pen/qqNvKR */
-
-.other:checked ~ input {
-	display:  block;
-}
-
-
-/* ================================= 
   Helper Classes
 ==================================== */
 

@@ -1,19 +1,13 @@
-## Treehouse Technical Degree Project 3 
-### Interactive Forms: Easy to Use, Interactive and Responsive
+### Conference Registration Form: Working with Mockups/Working with Arrays and Objects
 
----
-Forms are vital to any business. Get them right.
----
-
-####Tech/Concepts:
-- JavaScript
-- JQuery
-- HTML/CSS
-
-####Tools:
+- HTML/CSS/JavaScript
+- DOM Manipulation with JQuery
+- Data Structures (Arrays, Objects)
+- Module Pattern
 - WebStorm
 - GitHub/Version Control
 
+![conference-form](https://cloud.githubusercontent.com/assets/10632591/21156790/c1eef5dc-c13c-11e6-8201-dddde93e28f1.png)
 
 #### Requirements:
 
@@ -22,8 +16,8 @@ Forms are vital to any business. Get them right.
 
 ---
 
-- [ ] Link index.html to the latest version of jQuery
-- [ ] Create a JavaScript file inside the "js" folder and link it to index.html
+- [x] Link index.html to the latest version of jQuery
+- [x] Create a JavaScript file inside the "js" folder and link it to index.html
 
 ---
 
@@ -53,9 +47,6 @@ Forms are vital to any business. Get them right.
 
 ##### "Register for Activities" section of the form:
 
-
-
-
 ---
 
 ##### "Payment Info" section of the form
@@ -66,19 +57,19 @@ Forms are vital to any business. Get them right.
 
 - [x] Name field is required
 - [x] Email is required and must be in a valid format.  
-- [ ] At least one activity must be checked from the list under "Register for Activities."
-- [ ] Payment option must be selected.
-- [ ] If "Credit card" is the selected payment option, make sure the user supplied a credit card number, a zip code, and a 3 number CVV value.
+- [x] At least one activity must be checked from the list under "Register for Activities."
+- [x] Payment option must be selected.
+- [x] If "Credit card" is the selected payment option, make sure the user supplied a credit card number, a zip code, and a 3 number CVV value.
 
 ---
 
 ##### General Requirements 
 
-- [ ] No Syntax Errors
-- [ ] Comments included
-- [ ] Form must work adequately and without frustration even if JavaScript is not enabled.
-- [ ] Form must work in major browsers.
-- [ ] Form must look good and work at various screen sizes and devices.
+- [x] No Syntax Errors
+- [x] Comments included
+- [x] Form must work adequately and without frustration even if JavaScript is not enabled.
+- [x] Form must work in major browsers.
+- [x] Form must look good and work at various screen sizes and devices.
 ---
 
 #### Extra Credit
@@ -110,4 +101,5 @@ Page Speed Insights
 [Simple CSS Form Interaction] (http://codepen.io/anon/pen/qqNvKR)
 
 [Data Form Validation] (https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Data_form_validation)
+
 
